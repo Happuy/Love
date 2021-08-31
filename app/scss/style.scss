@@ -1,0 +1,34 @@
+@import 'vars';
+@import 'fonts';
+@import 'reset';
+@import 'media';
+@import 'global';
+
+
+.info{
+	&__text{
+		padding-top: 20px;
+		&-item{
+			font-size: 20px;
+            color: white;
+		}
+	}
+}
+
+.galery{
+    &__photo{
+        margin-top: 40px;
+        display: flex;
+        justify-content: space-around;
+    }
+}
+
+.footer{
+    &__info{
+        padding-top: 50px;
+        &-text{
+            font-size: 20px;
+            color: white;
+        }
+    }
+}
